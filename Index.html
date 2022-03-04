@@ -4,42 +4,45 @@
     <meta charset="UTF-8"> <!--Sirve para representar información en diferentes tipos de escritura ñ ´ etc-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatibilidad con diferentes navegadores-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--meta para ajustar el sitio al tamaño de la pantalla-->
-    <title>Nombre de la pestana pues</title>
+    <title>Gestión de salida movimiento de activos</title>
+    <link href="./styles/styles.css" rel="stylesheet">
 <!--     <description>
         Texto que aparece debajo del link de ingreso a la página en el buscador = SEO
     </description> -->
 </head>
+
 <body> <!--Etiqueta del contenido a mostrarle al usuario-->
 
-    <header>Este es el header de navegadción</header>
+    <header>Este es el header de navegación</header>
     <main>
-
         <h1>DATOS DE EMPLEADOS</h1>
         <P>Bienvenido estimado Colaborador, favor diligencie los siguientes datos para que su solicitud sea procesada</P>
-        <form>
-
-            <label for="nombre"> Ingrese su nombre
-                <input type="text">
+        <form class="ubicacionFormulario">
+            
+            <label class="espacioEntreLabel" for="nombre"> Ingrese su nombre
+                <input name="nombre" type="text">
             </label>
-            <label for="correo"> Ingrese su correo
-                <input type="email">
+            <label class="espacioEntreLabel" for="correo"> Ingrese su correo
+                <input correo="correo"type="email">
             </label>
-            <label for="activo"> Ingrese el número de activo
-                <input type="number">
+            <label class= "espacioEntreLabel" for="activo"> Ingrese el número de activo
+                <input activo="activo "type="number">
             </label>
-            <label for="acción"> Ingreso
+            <label class= "espacioEntreLabel" for="acción"> Ingreso
                 <input type="radio">
             </label>
-            <label for="acción"> Salida
+            <label class= "espacioEntreLabel" for="acción"> Salida
                 <input type="radio">
             </label>
-            <label for="fecha2"> Fecha estimada de retorno
-                <input type="date">
+            <label class= "espacioEntreLabel" for="fecha2"> Fecha estimada de retorno
+                <input fecha2 ="fecha2"type="date">
             </label>
-            <button type="submit">Guardar datos</button>
-            <button type="reset">Borrar datos</button>
-
+            <button class= "espacioEntreLabel" type="submit">Guardar datos</button>
+            <button class= "espacioEntreLabel" type="reset">Borrar datos</button>
         </form>
+        
+        <img class="tamañoImagen espaciosBordes1" src="./media/pexels-ann-poan-5797903.jpg" alt="Imagen computador">
+        
     </main>
     <footer>pie de página</footer>
     

@@ -1,0 +1,22 @@
+button{
+    background-color: rgb(0, 57, 120);
+    color:white;
+}
+
+.tamañoImagen {
+    height: 600px;
+}
+
+.espaciosBordes1 {
+    margin: 20px;
+}
+
+.ubicacionFormulario{
+    display: grid;
+    grid-column: auto;
+
+}
+
+.espacioEntreLabel{
+    margin: 2px;
+}
