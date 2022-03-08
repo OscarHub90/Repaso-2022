@@ -14,6 +14,7 @@ button{
 .ubicacionFormulario{
     display: grid;
     grid-column: auto;
+    align-items: center;
 
 }
 
