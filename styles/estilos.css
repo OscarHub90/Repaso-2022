@@ -42,3 +42,15 @@ button:hover{
 .secondaryButton:hover{
     box-shadow: 1px 1px rgb(0, 92, 128);
 }
+
+.Buscar {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.Buscar > input {
+    outline: none;
+    border: 0px;
+}
