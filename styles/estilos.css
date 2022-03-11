@@ -19,11 +19,10 @@ body {
     padding: 10px;
     font-size: large;
     font-weight: bolder;
-    cursor: pointer;
-    box-shadow: 1px 1px rgb(0, 92, 128);
 }
 
 button:hover{
+    cursor: pointer;
     transform: scale(1.1);
 }
 .mainButton{
@@ -32,7 +31,7 @@ button:hover{
 }
 
 .mainButton:hover{
-    transform: scale(1.1);
+    box-shadow: 1px 1px rgb(0, 92, 128);
 }
 
 .secondaryButton{
@@ -41,5 +40,5 @@ button:hover{
 }
 
 .secondaryButton:hover{
-    transform: scale(1.1);
+    box-shadow: 1px 1px rgb(0, 92, 128);
 }
