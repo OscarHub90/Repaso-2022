@@ -1,3 +1,4 @@
+import Oscar from './components/componentPrueba';
 import Logo from './media/Logo.png';
 import './App.css';
 
@@ -30,11 +31,6 @@ function App() {
     </main>
     <footer>
       <Oscar/>
-      <Oscar/>
-      <Oscar/>
-      <Oscar/>
-      <Oscar/>
-
     </footer>
     </div>
   );
@@ -42,8 +38,3 @@ function App() {
 
 export default App;
 
-function Oscar () {
-  return(
-    <h1>Soy una etiqueta HTML Personalizada para Oscar</h1>
-  )
-}
