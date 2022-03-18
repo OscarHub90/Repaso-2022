@@ -8,10 +8,16 @@ body {
   margin: 0px;
 }
 
+.logo {
+  height: 100px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  background-color: rgb(207, 207, 207);
+  border-bottom: 1px solid gray;
 }
 
 .button{
@@ -19,6 +25,8 @@ body {
   padding: 10px;
   font-size: large;
   font-weight: bolder;
+  margin-left: 650px;
+  margin-top: 10px;
 }
 
 button:hover{
@@ -35,22 +43,40 @@ button:hover{
 }
 
 .secondaryButton{
-  background-color: rgb(92, 89, 240);
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(27, 4, 107);
 }
 
 .secondaryButton:hover{
   box-shadow: 1px 1px rgb(0, 92, 128);
 }
 
-.Buscar {
-  background-color: white;
-  border: 1px solid grey;
-  padding: 10px;
-  border-radius: 8px;
+.tercButton{
+  background-color: rgb(3, 90, 124);
+  color: white;
 }
 
-.Buscar > input {
+.tercButton:hover{
+  box-shadow: 1px 1px burlywood;
+}
+
+.buscar{
+  background-color: white;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 8px; /* Redondear los bordes*/
+}
+.buscar > input{ /*Este estilo aplica para todos lo input que estén debajo de un objeto con class buscar*/
   outline: none;
-  border: 0px;
+  border: 0px; /*quitamos los bordes del recuadro buscar*/
+  width: 240px; /*Alto*/
+  height: 20px; /*Ancho*/
+}
+
+.logoBusqueda{
+  cursor: pointer;
+}
+.logoBusqueda:hover{ /*Estilo para la lupa de búsqueda*/
+  color: blue;
+  transform: scale(1.1);
 }
